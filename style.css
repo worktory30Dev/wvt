@@ -257,6 +257,10 @@ body {
 [data-theme="light"] .theme-icon.sun { display: none; }
 [data-theme="light"] .theme-icon.moon { display: block; }
 
+a.about-btn {
+  text-decoration: none;
+}
+
 .about-btn {
   display: flex;
   align-items: center;
