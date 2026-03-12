@@ -290,6 +290,8 @@ body {
   align-items: center;
   gap: 10px;
   margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border);
   text-decoration: none;
   color: var(--text-primary);
   font-size: 15px;
