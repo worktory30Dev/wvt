@@ -284,11 +284,43 @@ body {
   font-weight: 500;
 }
 
+/* WVW Badge */
+.wvw-badge {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 8px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 600;
+  transition: background var(--transition), color var(--transition);
+}
+
+.wvw-badge:hover {
+  background: var(--bg-tertiary);
+  color: var(--text-primary);
+}
+
+.wvw-badge-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 6px;
+}
+
 /* Main Content */
 .content {
   flex: 1;
   overflow: hidden;
   min-width: 0;
+  position: relative;
 }
 
 .content-scroll {
@@ -1336,6 +1368,14 @@ body {
 @media (max-width: 900px) {
   .sidebar {
     display: none;
+  }
+
+  .wvw-badge {
+    top: 10px;
+    right: 12px;
+    font-size: 0;
+    padding: 6px;
+    gap: 0;
   }
 
   .content-scroll {
