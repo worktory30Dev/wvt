@@ -257,19 +257,31 @@ body {
 [data-theme="light"] .theme-icon.sun { display: none; }
 [data-theme="light"] .theme-icon.moon { display: block; }
 
-.developer-info {
+.about-btn {
   display: flex;
   align-items: center;
   gap: 10px;
-  text-decoration: none;
+  width: 100%;
   padding: 8px 10px;
   margin: -8px -10px;
   border-radius: var(--radius-sm);
-  transition: background var(--transition);
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
 }
 
-.developer-info:hover {
+.about-btn:hover {
   background: var(--developer-hover);
+  color: var(--text-primary);
+}
+
+.about-btn svg {
+  flex-shrink: 0;
 }
 
 .developer-avatar {
