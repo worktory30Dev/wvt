@@ -13,6 +13,7 @@
         "name": { "type": "string", "description": "Store display name." },
         "developer": { "type": "string", "description": "Default developer name shown on app detail pages." },
         "tagline": { "type": "string", "description": "Short tagline for the store." },
+        "url": { "type": "string", "format": "uri", "description": "The store's live URL." },
         "github": { "type": "string", "format": "uri", "description": "GitHub profile or org URL." }
       }
     },

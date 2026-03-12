@@ -398,7 +398,7 @@
             </div>` : ""}
             ${app._source ? `<div class="info-item">
               <span class="info-label">Source Store</span>
-              <span class="info-value"><a href="https://github.com/${app._source}" target="_blank" rel="noopener">${app._store || app._source}</a></span>
+              <span class="info-value"><a href="${app._storeUrl || 'https://github.com/' + app._source}" target="_blank" rel="noopener">${app._store || app._source}</a></span>
             </div>` : ""}
             <div class="info-item">
               <span class="info-label">Compatibility</span>

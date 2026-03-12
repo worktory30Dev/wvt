@@ -37,12 +37,13 @@ for repo in $repos; do
 
   app_count=$(jq '.apps | length' "$tmp_file")
   store_name=$(jq -r '.store.name // "Unknown"' "$tmp_file")
+  store_url=$(jq -r '.store.url // ""' "$tmp_file")
   developer=$(jq -r '.store.developer // "Unknown"' "$tmp_file")
   echo "OK ($app_count apps from $store_name by $developer)"
 
-  apps_with_source=$(jq --arg repo "$repo" --arg owner "$owner" --arg dev "$developer" --arg store "$store_name" --argjson allowed "$(echo "$allowed_cats" | jq -R . | jq -s .)" '
+  apps_with_source=$(jq --arg repo "$repo" --arg owner "$owner" --arg dev "$developer" --arg store "$store_name" --arg storeUrl "$store_url" --argjson allowed "$(echo "$allowed_cats" | jq -R . | jq -s .)" '
     .apps | map(
-      . + { _source: $repo, _owner: $owner, _developer: $dev, _store: $store } |
+      . + { _source: $repo, _owner: $owner, _developer: $dev, _store: $store, _storeUrl: $storeUrl } |
       if .developer == null then .developer = $dev else . end |
       .category = [.category[] | select(. as $c | $allowed | index($c))]
     ) | map(select(.category | length > 0))
