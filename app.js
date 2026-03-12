@@ -103,6 +103,18 @@
     return app.iconEmoji || "📦";
   }
 
+  function smartMedia(url, cls, alt) {
+    const isLikelyImage = /\.(png|jpe?g|gif|svg|webp)(\?|$)/i.test(url);
+    if (isLikelyImage) {
+      return `<img class="${cls}" src="${url}" alt="${alt}" loading="lazy">`;
+    }
+    const isLikelyVideo = /\.(mp4|webm|mov)(\?|$)/i.test(url);
+    if (isLikelyVideo) {
+      return `<video class="${cls}" src="${url}" autoplay loop muted playsinline></video>`;
+    }
+    return `<img class="${cls}" src="${url}" alt="${alt}" loading="lazy" onerror="var v=document.createElement('video');v.className=this.className;v.src=this.src;v.autoplay=v.loop=v.muted=v.playsInline=true;this.replaceWith(v)">`;
+  }
+
   function starBadge(stars) {
     return `<span class="star-count"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>${formatNumber(stars)}</span>`;
   }
@@ -134,9 +146,7 @@
     const g = grads[index % grads.length];
     const hasScreenshot = app.screenshots && app.screenshots.length > 0;
     const screenshotImg = hasScreenshot
-      ? (app.screenshots[0].startsWith("https://github.com/user-attachments/assets/")
-        ? `<video class="card-screenshot" src="${app.screenshots[0]}" autoplay loop muted playsinline></video>`
-        : `<img class="card-screenshot" src="${app.screenshots[0]}" alt="${app.name}" loading="lazy">`)
+      ? smartMedia(app.screenshots[0], "card-screenshot", app.name)
       : "";
     return `
       <div class="card" data-app="${app.id}">
@@ -358,10 +368,7 @@
         <div class="detail-section">
           <h3>Preview</h3>
           <div class="screenshots-scroll">
-            ${app.screenshots.map((s) => s.startsWith("https://github.com/user-attachments/assets/")
-              ? `<video class="screenshot-img" src="${s}" autoplay loop muted playsinline></video>`
-              : `<img class="screenshot-img" src="${s}" alt="${app.name} screenshot" loading="lazy">`
-            ).join("")}
+            ${app.screenshots.map((s) => smartMedia(s, "screenshot-img", app.name)).join("")}
           </div>
         </div>` : ""}
 
