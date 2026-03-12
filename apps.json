@@ -21,32 +21,28 @@
   ],
   "categories": [
     {
-      "id": "all",
-      "name": "All Apps"
+      "id": "macos",
+      "name": "macOS Apps"
     },
     {
-      "id": "cli",
-      "name": "CLI Apps"
+      "id": "web",
+      "name": "Web Apps"
     },
     {
       "id": "developer-tools",
       "name": "Developer Tools"
     },
     {
-      "id": "games",
-      "name": "Games"
-    },
-    {
-      "id": "macos",
-      "name": "macOS Apps"
+      "id": "cli",
+      "name": "CLI Apps"
     },
     {
       "id": "productivity",
       "name": "Productivity"
     },
     {
-      "id": "web",
-      "name": "Web Apps"
+      "id": "games",
+      "name": "Games"
     }
   ],
   "apps": [

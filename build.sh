@@ -10,9 +10,12 @@ if ! command -v jq &>/dev/null; then
   exit 1
 fi
 
+CATEGORIES_FILE="categories.json"
+
 repos=$(jq -r '.[]' "$REPOS_FILE")
+allowed_cats=$(jq -r '.[].id' "$CATEGORIES_FILE")
+categories=$(cat "$CATEGORIES_FILE")
 all_apps="[]"
-all_categories="[]"
 all_featured="[]"
 
 for repo in $repos; do
@@ -31,14 +34,14 @@ for repo in $repos; do
   developer=$(jq -r '.store.developer // "Unknown"' "$tmp_file")
   echo "OK ($app_count apps from $store_name by $developer)"
 
-  apps_with_source=$(jq --arg repo "$repo" --arg dev "$developer" --arg store "$store_name" '
-    .apps | map(. + { _source: $repo, _developer: $dev, _store: $store } |
-      if .developer == null then .developer = $dev else . end)
+  apps_with_source=$(jq --arg repo "$repo" --arg dev "$developer" --arg store "$store_name" --argjson allowed "$(echo "$allowed_cats" | jq -R . | jq -s .)" '
+    .apps | map(
+      . + { _source: $repo, _developer: $dev, _store: $store } |
+      if .developer == null then .developer = $dev else . end |
+      .category = [.category[] | select(. as $c | $allowed | index($c))]
+    ) | map(select(.category | length > 0))
   ' "$tmp_file")
   all_apps=$(echo "$all_apps" "$apps_with_source" | jq -s '.[0] + .[1]')
-
-  cats=$(jq '.categories // []' "$tmp_file")
-  all_categories=$(echo "$all_categories" "$cats" | jq -s '.[0] + .[1] | unique_by(.id)')
 
   featured=$(jq '.featured // []' "$tmp_file")
   all_featured=$(echo "$all_featured" "$featured" | jq -s '.[0] + .[1]')
@@ -49,7 +52,7 @@ total=$(echo "$unique_apps" | jq 'length')
 
 jq -n \
   --argjson apps "$unique_apps" \
-  --argjson categories "$all_categories" \
+  --argjson categories "$categories" \
   --argjson featured "$all_featured" \
   '{
     store: {

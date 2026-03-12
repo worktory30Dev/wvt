@@ -1,0 +1,8 @@
+[
+  { "id": "macos", "name": "macOS Apps" },
+  { "id": "web", "name": "Web Apps" },
+  { "id": "developer-tools", "name": "Developer Tools" },
+  { "id": "cli", "name": "CLI Apps" },
+  { "id": "productivity", "name": "Productivity" },
+  { "id": "games", "name": "Games" }
+]
