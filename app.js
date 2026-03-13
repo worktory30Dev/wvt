@@ -824,9 +824,10 @@
   // Init
   async function init() {
     try {
+      const cacheBust = Math.floor(Date.now() / 300000);
       const [appsResp, storesResp] = await Promise.all([
-        fetch("apps.json"),
-        fetch("stores.json").catch(() => null),
+        fetch("apps.json?v=" + cacheBust),
+        fetch("stores.json?v=" + cacheBust).catch(() => null),
       ]);
       data = await appsResp.json();
       if (storesResp && storesResp.ok) {
