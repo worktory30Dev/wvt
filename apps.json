@@ -241,7 +241,7 @@
       "github": "https://github.com/f/appetit",
       "homepage": "https://apps.fka.dev",
       "language": "JavaScript",
-      "stars": 20,
+      "stars": 22,
       "forks": 3,
       "requirements": "Any modern browser",
       "features": [
@@ -411,7 +411,7 @@
       "github": "https://github.com/DodoApps/dodocount",
       "homepage": null,
       "language": "Swift",
-      "stars": 12,
+      "stars": 13,
       "forks": 2,
       "downloadUrl": "https://github.com/DodoApps/dodocount/releases/download/v1.1.0/DodoCount-1.1.0.dmg",
       "requirements": "macOS 14.0 or later",
@@ -655,7 +655,7 @@
       "github": "https://github.com/asafakin/oyun",
       "homepage": "https://asafakin.github.io/oyun/savas-oyunu/",
       "language": "JavaScript",
-      "stars": 3,
+      "stars": 4,
       "forks": 0,
       "requirements": "Any modern browser",
       "features": [
@@ -801,6 +801,41 @@
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
       "developer": "Fatih Kadir Akin"
+    },
+    {
+      "id": "mergen-ade",
+      "name": "Mergen ADE",
+      "subtitle": "Organize multiple project terminals in one native workspace",
+      "description": "Native Rust terminal workspace for keeping multiple project contexts visible and easy to switch on macOS.",
+      "longDescription": "Mergen ADE is a desktop terminal workspace for running and organizing multiple project contexts. It keeps multiple terminals visible in a native Rust UI with tiled panes, project grouping, and lightweight persisted state. The project is still Windows-first, but official releases now include a signed and notarized macOS ARM64 DMG.",
+      "icon": "https://raw.githubusercontent.com/furkancak1r/mergen-ade/main/logo.png",
+      "category": [
+        "macos",
+        "developer-tools",
+        "productivity"
+      ],
+      "platform": "macOS",
+      "price": "Free",
+      "github": "https://github.com/furkancak1r/mergen-ade",
+      "homepage": "https://github.com/furkancak1r/mergen-ade/releases/latest",
+      "language": "Rust",
+      "features": [
+        "Embedded terminal panes with tiled layout management",
+        "Project-aware terminal grouping for fast context switches",
+        "Native PTY-backed shell sessions in a lightweight Rust desktop app",
+        "Small persisted config that restores useful workspace state"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/furkancak1r/mergen-ade/main/mergen-screenshot.png"
+      ],
+      "_source": "furkancak1r/mergen-ade",
+      "_owner": "furkancak1r",
+      "_developer": "Furkan Cakir",
+      "_store": "Mergen ADE",
+      "_storeUrl": "",
+      "developer": "Furkan Cakir",
+      "stars": 1,
+      "forks": 0
     },
     {
       "id": "munch",
@@ -968,8 +1003,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 151718,
-      "forks": 19934,
+      "stars": 151763,
+      "forks": 19948,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -1032,6 +1067,49 @@
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
       "developer": "Fatih Kadir Akin"
+    },
+    {
+      "id": "superportless",
+      "name": "superportless",
+      "subtitle": "Keep the exact same localhost origin while switching worktrees per tab.",
+      "description": "A local dev router that lets each browser tab connect to a different server without changing host or port.",
+      "longDescription": "vercel/portless is a clever idea, but subdomains change the origin and often force updates to CORS settings, OAuth redirect URLs, and environment configs. superportless takes a different approach: each browser tab can connect to a different local server while keeping the exact same host and port, such as localhost:3000. That means no subdomains, no origin change, and no application config changes. Just open multiple tabs and test multiple worktrees in parallel.",
+      "icon": "https://software-lab.shibukazu.com/products/superportless/icon.png",
+      "iconEmoji": "🧭",
+      "iconStyle": {
+        "objectFit": "contain",
+        "bgColor": "#E5E7EB",
+        "padding": "16%"
+      },
+      "category": [
+        "cli",
+        "developer-tools",
+        "utilities"
+      ],
+      "platform": "CLI",
+      "price": "Free",
+      "github": "https://github.com/shibukazu/superportless",
+      "homepage": "https://software-lab.shibukazu.com/products/superportless/",
+      "language": "Go",
+      "brew": "brew install shibukazu/tap/superportless --HEAD",
+      "requirements": "macOS or Linux. Source builds require Go 1.21+ and a C compiler.",
+      "features": [
+        "Each browser tab can route to a different local server while keeping the same localhost host and port",
+        "Avoids subdomains and origin changes that would otherwise affect CORS, OAuth redirects, and environment settings",
+        "Lets you test multiple worktrees in parallel without teaching the application about the routing tool",
+        "Includes Next.js-specific support for HMR and /api/* routing during development"
+      ],
+      "screenshots": [
+        "https://software-lab.shibukazu.com/products/superportless/wvw-preview.svg"
+      ],
+      "_source": "https://software-lab.shibukazu.com/apps.json",
+      "_owner": "software-lab.shibukazu.com",
+      "_developer": "Kazuki Shibutani",
+      "_store": "Shibutani Software Lab",
+      "_storeUrl": "",
+      "developer": "Kazuki Shibutani",
+      "stars": 0,
+      "forks": 0
     },
     {
       "id": "tater-talk",
