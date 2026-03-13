@@ -143,6 +143,42 @@
   ],
   "apps": [
     {
+      "id": "agent-chess",
+      "name": "Agent Chess",
+      "subtitle": "Local chess matches for AI agents",
+      "description": "Run a local chess game where two AI agents join, play moves, and follow a live board.",
+      "longDescription": "Agent Chess is a TypeScript CLI for pitting two AI agents against each other in a local chess game. Agents join the same match, submit moves one turn at a time, can negotiate draws, and can watch the live board in a local web UI.",
+      "icon": "https://raw.githubusercontent.com/shametim/agent-chess/main/logo.png",
+      "iconEmoji": "♟️",
+      "category": [
+        "cli",
+        "developer-tools",
+        "games"
+      ],
+      "platform": "Node.js",
+      "price": "Free",
+      "github": "https://github.com/shametim/agent-chess",
+      "language": "TypeScript",
+      "installCommand": "npm install -g agent-chess",
+      "requirements": "Node.js 20+",
+      "features": [
+        "Two AI agents can join the same local game and play turn by turn",
+        "Built-in draw request and accept flow",
+        "Live local web UI for board state, move history, and replay"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/shametim/agent-chess/main/docs/agent-chess-cli.png"
+      ],
+      "_source": "shametim/agent-chess",
+      "_owner": "shametim",
+      "_developer": "Martin",
+      "_store": "shametim",
+      "_storeUrl": "",
+      "developer": "Martin",
+      "stars": 0,
+      "forks": 0
+    },
+    {
       "id": "agentlytics",
       "name": "Agentlytics",
       "subtitle": "AI Coding Agent Analytics",
@@ -164,7 +200,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 311,
+      "stars": 314,
       "forks": 33,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -205,7 +241,7 @@
       "github": "https://github.com/f/appetit",
       "homepage": "https://apps.fka.dev",
       "language": "JavaScript",
-      "stars": 16,
+      "stars": 19,
       "forks": 3,
       "requirements": "Any modern browser",
       "features": [
@@ -656,7 +692,7 @@
       "github": "https://github.com/f/git-rewrite-commits",
       "homepage": "https://blog.fka.dev/git-rewrite-commits/",
       "language": "TypeScript",
-      "stars": 1383,
+      "stars": 1385,
       "forks": 56,
       "installCommand": "npx git-rewrite-commits",
       "requirements": "Node.js, Git",
@@ -767,6 +803,150 @@
       "developer": "Fatih Kadir Akin"
     },
     {
+      "id": "munch",
+      "name": "Munch",
+      "subtitle": "Can you beat the computer at the game of Munch?",
+      "description": "Play the classic poison-apple strategy game in your browser and try to avoid the losing move.",
+      "longDescription": "Munch is a browser game where players take turns eating apples from a grid, and whoever is forced to eat the poison apple loses. This version pits you against a computer opponent built around a solved strategy for the 5x6 board.",
+      "icon": null,
+      "iconEmoji": "🍎",
+      "category": [
+        "web",
+        "games"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/munch",
+      "homepage": "https://stedwick.github.io/munch/",
+      "language": "HTML",
+      "requirements": "Web browser on desktop or mobile.",
+      "features": [
+        "Play Munch instantly in the browser",
+        "Challenge a computer opponent using winning board states",
+        "Learn the poison-apple rules through live play"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/munch.png"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "my-net-worth",
+      "name": "My Net Worth",
+      "subtitle": "All your stocks, ETFs, crypto wallets, 401(k), on one page",
+      "description": "See stocks, ETFs, crypto wallets, retirement accounts, and debt on one page with hourly price updates and no account connections.",
+      "longDescription": "My Net Worth was built to put Fidelity 401(k)s, Vanguard investments, E-Trade and IBKR stocks, bank accounts, and crypto wallets on one page. It is intentionally simple and safe: nothing connects directly to your accounts, and live prices refresh hourly so you can track your full portfolio across TradFi and DeFi in one place.",
+      "icon": "https://mynetworthone.com/icon-full.png",
+      "category": [
+        "web",
+        "finance",
+        "productivity"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/mynetworth",
+      "homepage": "https://mynetworthone.com",
+      "language": "TypeScript",
+      "requirements": "Chrome on Windows, Mac, Linux, iPhone, and Android.",
+      "features": [
+        "Track traditional and crypto assets together on one page",
+        "Support Yahoo Finance symbols plus Bitcoin, Ethereum and EVM wallets, and Solana wallets",
+        "Keep accounts disconnected while prices refresh hourly"
+      ],
+      "screenshots": [
+        "https://mynetworthone.com/full-screenshot-light.png",
+        "https://mynetworthone.com/screenshot-light.png"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum"
+    },
+    {
+      "id": "philnav",
+      "name": "PhilNav",
+      "subtitle": "Infrared head mouse for hands-free computer control",
+      "description": "Control your computer hands-free with a reflective sticker and a Raspberry Pi-powered infrared head mouse running at 75 FPS.",
+      "longDescription": "PhilNav is a custom infrared head mouse that lets you move the cursor hands-free by tracking a reflective sticker on your head. The software is open source on GitHub, and this listing points to the assembled Gumroad hardware package built by Philip Brocoum for accessibility-focused computing.",
+      "icon": "https://public-files.gumroad.com/0nnvduycqqoj9l0bvocbiw2fclq9",
+      "iconEmoji": "🖱️",
+      "iconStyle": {
+        "objectFit": "cover",
+        "borderRadius": "16%"
+      },
+      "category": [
+        "utilities",
+        "productivity"
+      ],
+      "platform": "Raspberry Pi + Desktop",
+      "price": "$400",
+      "github": "https://github.com/stedwick/PhilNav-Python-RaspberryPi",
+      "homepage": "https://philipb.gumroad.com/l/philnav",
+      "language": "Python",
+      "requirements": "Raspberry Pi hardware on the server side plus a Windows, Mac, or Linux client machine.",
+      "features": [
+        "Hands-free cursor movement using infrared head tracking",
+        "Runs at 75 FPS with low-latency mouse control",
+        "Cross-platform client support for Windows, macOS, and Linux"
+      ],
+      "screenshots": [
+        "https://public-files.gumroad.com/0nnvduycqqoj9l0bvocbiw2fclq9",
+        "https://public-files.gumroad.com/r90bnxjjxjon9elzz1jg6wi5zbfb",
+        "https://public-files.gumroad.com/nitn1j03grwcy2fn912h4kua8d90"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum",
+      "stars": 5,
+      "forks": 3
+    },
+    {
+      "id": "poker-tracker",
+      "name": "Poker Tracker",
+      "subtitle": "Track your live poker PnL with a simple web app",
+      "description": "Easily track your poker PnL.",
+      "longDescription": "Poker Tracker is a lightweight web app for tracking live poker winnings and losses over time. It focuses on fast entry and clear bankroll visibility without the overhead of a larger gambling analytics platform.",
+      "icon": "https://pokertracker-23081.web.app/logo192-masked.png",
+      "category": [
+        "web",
+        "finance"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/pokertracker",
+      "homepage": "https://pokertracker-23081.web.app",
+      "language": "JavaScript",
+      "requirements": "Web browser on desktop or mobile.",
+      "features": [
+        "Track poker winnings and losses in the browser",
+        "Keep a running PnL history for live play",
+        "Simple interface built for personal bankroll tracking"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/stedwick/wvw.dev.apps/main/screenshots/poker-tracker.png"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum",
+      "stars": 1,
+      "forks": 0
+    },
+    {
       "id": "prompts-chat",
       "name": "Prompts.chat",
       "subtitle": "Community Prompt Collection",
@@ -788,8 +968,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 151657,
-      "forks": 19926,
+      "stars": 151703,
+      "forks": 19929,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -854,6 +1034,44 @@
       "developer": "Fatih Kadir Akin"
     },
     {
+      "id": "tater-talk",
+      "name": "Tater Talk",
+      "subtitle": "The simplest speech-to-text dictation web-app on Win/Mac/Nix",
+      "description": "The easiest way to talk to your computer on Win, Mac, Linux, iOS, Android, and the browser with optional bring-your-own premium speech models.",
+      "longDescription": "Tater Talk is a browser-based dictation app built to make talking to your computer feel simple across Windows, macOS, Linux, iPhone, Android, and the web. The current version adds a polished redesign and bring-your-own API key support for premium speech-to-text providers such as Microsoft Azure and AssemblyAI.",
+      "icon": "https://tatertalk.app/logo.png",
+      "iconStyle": {
+        "objectFit": "contain",
+        "bgColor": "#0f172a",
+        "padding": "14%"
+      },
+      "category": [
+        "web",
+        "productivity",
+        "utilities"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/stedwick/philsdictationapp",
+      "homepage": "https://tatertalk.app",
+      "language": "TypeScript",
+      "requirements": "Chrome on Windows, Mac, Linux, iPhone, and Android.",
+      "features": [
+        "Browser-based speech-to-text with no install",
+        "Works across Win, Mac, Linux, iOS, Android, and desktop browsers",
+        "Supports bring-your-own API keys for premium speech-to-text models"
+      ],
+      "screenshots": [
+        "https://tatertalk.app/twitter2.jpg"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum"
+    },
+    {
       "id": "textream",
       "name": "Textream",
       "subtitle": "A Free macOS Teleprompter",
@@ -874,7 +1092,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 1977,
+      "stars": 1980,
       "forks": 135,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
