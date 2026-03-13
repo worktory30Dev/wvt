@@ -38,6 +38,54 @@ for entry in $stores; do
     continue
   fi
 
+  # Auto-detect DodoApps catalog format and convert to Appétit schema
+  is_dodoapps=$(jq 'has("publishers") and has("schemaVersion")' "$tmp_file")
+  if [ "$is_dodoapps" = "true" ]; then
+    echo -n "(converting DodoApps format) "
+    jq '{
+      store: (
+        ([.publishers[] | select(.verified == true)] | first // .publishers[0] // {}) as $main |
+        {
+          name: ($main.name // "Unknown"),
+          developer: ($main.name // "Unknown"),
+          tagline: ($main.description // ""),
+          url: ($main.website // null),
+          github: ($main.github // null)
+        }
+      ),
+      categories: [],
+      apps: [
+        .publishers as $pubs |
+        .apps[] |
+        .publisherId as $pid |
+        ([$pubs[] | select(.id == $pid)] | first // {name: "Unknown"}) as $pub |
+        {
+          id: .id,
+          name: .name,
+          developer: ($pub.name // "Unknown"),
+          subtitle: .tagline,
+          description: .description,
+          longDescription: .description,
+          icon: .icon,
+          iconStyle: {scale: 1.3, objectFit: "cover", borderRadius: "22%"},
+          category: [({analytics:"business",security:"utilities",media:"entertainment"}[.category] // .category), "macos"] | unique,
+          platform: "macOS",
+          price: "Free",
+          github: (.verification.repoUrl // null),
+          homepage: null,
+          language: "Swift",
+          stars: (.repoStats.stars // 0),
+          forks: 0,
+          downloadUrl: .downloadUrl,
+          requirements: ("macOS " + (.minMacOS // "14.0") + " or later"),
+          features: (.features // []),
+          screenshots: (.screenshots // [])
+        }
+      ]
+    }' "$tmp_file" > "${tmp_file}.converted"
+    mv "${tmp_file}.converted" "$tmp_file"
+  fi
+
   app_count=$(jq '.apps | length' "$tmp_file")
   store_name=$(jq -r '.store.name // "Unknown"' "$tmp_file")
   store_url=$(jq -r '.store.url // ""' "$tmp_file")
