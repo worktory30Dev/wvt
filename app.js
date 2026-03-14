@@ -125,6 +125,20 @@
     return `<span class="owner-badge">${label}</span>`;
   }
 
+  function isPaidApp(app) {
+    return app.price && app.price !== "Free" && app.price !== "free";
+  }
+
+  function getBuyUrl(app) {
+    return app.buyUrl || app.homepage || app.github;
+  }
+
+  function getButtonLabel(app) {
+    if (isPaidApp(app)) return app.price;
+    if (app.brew || app.downloadUrl || app.installCommand) return "Get";
+    return "View";
+  }
+
   function getAppPublisherTerms(app) {
     return [app.developer, app._developer, app._owner, data.store.developer]
       .filter(Boolean)
@@ -168,7 +182,7 @@
             ${app.stars ? starBadge(app.stars) : ""}
           </div>
         </div>
-        <button class="get-btn" data-action="get" data-app="${app.id}">${app.brew ? "Get" : app.installCommand ? "Get" : "View"}</button>
+        <button class="get-btn${isPaidApp(app) ? " buy-btn" : ""}" data-action="get" data-app="${app.id}">${getButtonLabel(app)}</button>
       </div>`;
   }
 
@@ -248,7 +262,7 @@
               <div class="featured-app-name">${app.name}</div>
               <div class="featured-app-sub">${app.subtitle}</div>
             </div>
-            <button class="featured-get-btn" data-action="get" data-app="${app.id}">Get</button>
+            <button class="featured-get-btn${isPaidApp(app) ? " buy-btn" : ""}" data-action="get" data-app="${app.id}">${getButtonLabel(app)}</button>
           </div>` : ""}
         </div>
       </div>`;
@@ -307,6 +321,20 @@
           ${apps.slice(0, 6).map((a) => appRow(a)).join("")}
         </div>
       </div>
+
+      ${(() => {
+        const paidApps = apps.filter((a) => isPaidApp(a));
+        if (paidApps.length === 0) return "";
+        return `
+      <div class="section">
+        <div class="section-header">
+          <h2>Best Paid Apps</h2>
+        </div>
+        <div class="app-list">
+          ${paidApps.map((a) => appRow(a)).join("")}
+        </div>
+      </div>`;
+      })()}
 
       <div class="section">
         <div class="section-header">
@@ -377,8 +405,8 @@
             ${app._owner ? `<div class="app-detail-owner">by <a href="https://github.com/${app._owner}" target="_blank" rel="noopener">${app._owner}</a></div>` : ""}
             <div class="app-detail-subtitle">${app.subtitle}</div>
             <div class="app-detail-actions">
-              <button class="app-detail-get-btn" data-action="get" data-app="${app.id}">
-                ${app.brew || app.downloadUrl ? "Get" : app.installCommand ? "Get" : "View"}
+              <button class="app-detail-get-btn${isPaidApp(app) ? " buy-btn" : ""}" data-action="get" data-app="${app.id}">
+                ${getButtonLabel(app)}
               </button>
               <a href="${app.github}" target="_blank" rel="noopener" class="github-link">
                 ${icons.github} View on GitHub
@@ -712,6 +740,41 @@
     };
   }
 
+  function showBuyModal(app) {
+    const overlay = $("#modalOverlay");
+    const modal = $("#modal");
+    const url = getBuyUrl(app);
+
+    modal.innerHTML = `
+      <button class="modal-close" data-action="close-modal">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+      <div class="modal-icon"${iconContainerStyle(app)}>${renderIcon(app)}</div>
+      <h3>${app.name}</h3>
+      <div class="buy-modal-price">${app.price}</div>
+      <p>This is a paid app. You will be redirected to the developer's page to complete your purchase.</p>
+      <div class="buy-modal-link">
+        <a href="${url}" target="_blank" rel="noopener">${url}</a>
+      </div>
+      <div class="modal-actions">
+        <a class="btn-primary buy-modal-btn" href="${url}" target="_blank" rel="noopener">Go to Purchase Page</a>
+      </div>
+      <div class="buy-modal-disclaimer">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        <span>wvw.dev does not process payments or receive any commission from this purchase. All transactions occur directly on the developer's platform. Responsibility for the product, pricing, refunds, and support belongs entirely to the app owner.</span>
+      </div>
+    `;
+
+    overlay.style.display = "flex";
+    requestAnimationFrame(() => overlay.classList.add("visible"));
+
+    overlay.onclick = (e) => {
+      if (e.target === overlay || e.target.closest("[data-action='close-modal']")) {
+        closeModal();
+      }
+    };
+  }
+
   function closeModal() {
     const overlay = $("#modalOverlay");
     overlay.classList.remove("visible");
@@ -752,7 +815,9 @@
         const appId = btn.dataset.app;
         const app = data.apps.find((a) => a.id === appId);
         if (!app) return;
-        if (app.brew || app.installCommand) {
+        if (isPaidApp(app)) {
+          showBuyModal(app);
+        } else if (app.brew || app.installCommand) {
           showBrewModal(app);
         } else if (app.homepage) {
           window.open(app.homepage, "_blank");

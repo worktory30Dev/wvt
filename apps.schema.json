@@ -91,6 +91,7 @@
         "brew": { "type": "string", "description": "Homebrew install command. Triggers the install modal." },
         "installCommand": { "type": "string", "description": "Alternative install command (e.g. 'npx my-app'). Triggers the install modal." },
         "downloadUrl": { "type": "string", "format": "uri", "description": "Direct download URL (e.g. GitHub Releases latest). Shown as secondary button in install modal." },
+        "buyUrl": { "type": "string", "format": "uri", "description": "Purchase URL for paid apps. When price is not 'Free', a Buy button links here. If omitted, falls back to homepage or github." },
         "requirements": { "type": "string", "description": "System requirements (e.g. 'macOS 15 Sequoia or later')." },
         "features": {
           "type": "array",
