@@ -8,6 +8,8 @@
   <meta name="theme-color" content="#000000">
   <link rel="canonical" href="https://wvw.dev">
   <link rel="icon" type="image/png" href="/logo.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.json">
   <link rel="stylesheet" href="/style.css">
   <script>
     (function() {
@@ -91,5 +93,10 @@
   </div>
 
   <script src="/app.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("/sw.js");
+    }
+  </script>
 </body>
 </html>
