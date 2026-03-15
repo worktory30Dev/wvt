@@ -266,15 +266,50 @@ The canonical source is [`categories.json`](categories.json).
 
 You don't need to write `apps.json` by hand. Use the **[WVW apps.json Generator](https://findutils.com/en/tools/wvw-apps-json-generator/)** — a web tool that walks you through creating a valid `apps.json` with a form-based UI. Fill in your app details, pick categories, and download the ready-to-commit file.
 
-Or let your AI coding agent do it. Give this document to your agent (Cursor, Claude Code, Windsurf, Copilot, etc.) and ask it to:
+### Install the WVW Agent Skill
 
-> "Create an apps.json for my GitHub repos following this spec."
+Install the WVW skill into your AI agent with one command:
 
-The agent will read the schema, look up your repos, fetch descriptions and icons, and generate a valid `apps.json` ready to commit. You can also ask it to:
+```bash
+npx skills add f/wvw.dev
+```
 
-- Clone Appétit and set up a standalone store for you
-- Open a PR to `stores.json` on `f/wvw.dev` to list your apps
-- Run `update-stats.sh` to refresh star counts
+This installs the `wvw-apps-json` skill into your agent (Cursor, Claude Code, Copilot, Windsurf, Codex, and 40+ others). Once installed, just ask your agent:
+
+> "Create an apps.json for my GitHub repos following the WVW spec."
+
+The agent will use the skill to read the schema, look up your repos, fetch descriptions and icons, and generate a valid `apps.json` ready to commit.
+
+### MCP Server
+
+WVW also ships an MCP server that gives your agent tools for generating and validating `apps.json` files:
+
+```bash
+npx wvw-mcp
+```
+
+Add it to your agent's MCP config (`.mcp.json`, Claude Code settings, etc.):
+
+```json
+{
+  "mcpServers": {
+    "wvw": {
+      "command": "npx",
+      "args": ["-y", "wvw-mcp"]
+    }
+  }
+}
+```
+
+The MCP server provides:
+- **`generate_app_entry`** — create an app entry from a GitHub URL
+- **`validate_apps_json`** — check your file for errors and get suggestions
+- **`get_allowed_categories`** — list valid category IDs
+- **`generate_store_metadata`** — scaffold store info from a GitHub username
+
+### Or Just Ask Your Agent
+
+You can also give this document directly to your agent (Cursor, Claude Code, Windsurf, Copilot, etc.) and ask it to generate the file. The agent will read the schema and produce a valid `apps.json`.
 
 This entire project — Appétit and World Vibe Web — was built with agentic engineering. Your `apps.json` can be too.
 
