@@ -1173,6 +1173,43 @@ a.about-btn {
   line-height: 1.6;
 }
 
+.security-notice {
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 149, 0, 0.08);
+  border: 1px solid rgba(255, 149, 0, 0.2);
+}
+
+.security-notice p {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.security-notice p:last-child {
+  margin-bottom: 0;
+}
+
+.security-notice a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.security-notice a:hover {
+  text-decoration: underline;
+}
+
+.security-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: #ff9500;
+  margin-top: 2px;
+}
+
 .features-list {
   list-style: none;
   display: flex;

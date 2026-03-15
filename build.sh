@@ -131,7 +131,7 @@ while IFS= read -r app_json; do
       echo -n "SKIPPED (API error)"
     fi
 
-    issues_json=$(curl -sf "https://api.github.com/repos/$repo_path/issues?state=all&per_page=10&sort=created&direction=desc" \
+    issues_json=$(curl -sf "https://api.github.com/repos/$repo_path/issues?state=all&per_page=10&sort=created&direction=desc&labels=wvw" \
       ${GITHUB_TOKEN:+-H "Authorization: token $GITHUB_TOKEN"} 2>/dev/null) || issues_json="[]"
 
     is_array=$(echo "$issues_json" | jq 'type == "array"' 2>/dev/null) || is_array="false"

@@ -159,8 +159,8 @@
     const hasGithub = app.github && app.github.includes("github.com");
     if (comments.length === 0 && !hasGithub) return "";
 
-    const issuesUrl = hasGithub ? app.github + "/issues" : "";
-    const newIssueUrl = hasGithub ? app.github + "/issues/new" : "";
+    const issuesUrl = hasGithub ? app.github + "/issues?q=label%3Awvw" : "";
+    const newIssueUrl = hasGithub ? app.github + "/issues/new?labels=wvw" : "";
 
     const clickToRate = hasGithub ? `
       <div class="reviews-actions">
@@ -605,6 +605,17 @@
               <span class="info-label">Website</span>
               <span class="info-value"><a href="${app.homepage}" target="_blank" rel="noopener">${app.homepage.replace("https://", "")}</a></span>
             </div>` : ""}
+          </div>
+        </div>
+
+        <div class="detail-section security-section">
+          <h3>App Security</h3>
+          <div class="security-notice">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="security-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <div>
+              <p>This app may be <strong>vibe-coded</strong> — possibly built with AI-assisted development. While the source code is open and available on GitHub, World Vibe Web does not audit, verify, or guarantee the safety of any listed app.</p>
+              <p>Before installing, review the source code yourself${app.github ? ` at <a href="${app.github}" target="_blank" rel="noopener">${app.github.replace("https://github.com/", "")}</a>` : ""}. Run apps in sandboxed environments when possible. <strong>Install at your own risk.</strong></p>
+            </div>
           </div>
         </div>
 
