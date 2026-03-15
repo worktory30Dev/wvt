@@ -297,6 +297,77 @@ body {
   gap: 8px;
 }
 
+.sidebar-community {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-community-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  transition: background var(--transition), color var(--transition);
+  box-sizing: border-box;
+}
+
+.sidebar-community-toggle:hover {
+  background: var(--developer-hover);
+  color: var(--text-primary);
+}
+
+.sidebar-community-arrow {
+  margin-left: auto;
+  transition: transform 0.2s;
+}
+
+.sidebar-community.open .sidebar-community-arrow {
+  transform: rotate(180deg);
+}
+
+.sidebar-community-items {
+  display: none;
+  flex-direction: column;
+  gap: 2px;
+  padding-left: 8px;
+  margin-top: 4px;
+}
+
+.sidebar-community.open .sidebar-community-items {
+  display: flex;
+}
+
+.sidebar-community-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 12px;
+  color: var(--text-tertiary);
+  text-decoration: none;
+  transition: color var(--transition), background var(--transition);
+  cursor: pointer;
+}
+
+.sidebar-community-item:hover {
+  color: var(--text-primary);
+  background: var(--bg-tertiary);
+}
+
+.sidebar-community-item svg {
+  flex-shrink: 0;
+}
+
 .theme-toggle {
   display: flex;
   align-items: center;
