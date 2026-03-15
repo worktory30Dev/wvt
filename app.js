@@ -159,8 +159,8 @@
     const hasGithub = app.github && app.github.includes("github.com");
     if (comments.length === 0 && !hasGithub) return "";
 
-    const issuesUrl = hasGithub ? app.github + "/issues?q=label%3Awvw" : "";
-    const newIssueUrl = hasGithub ? app.github + "/issues/new?labels=wvw" : "";
+    const issuesUrl = hasGithub ? app.github + "/issues?q=%5Bwvw%5D" : "";
+    const newIssueUrl = hasGithub ? app.github + "/issues/new?title=" + encodeURIComponent("[wvw]: ") : "";
 
     const clickToRate = hasGithub ? `
       <div class="reviews-actions">
@@ -176,7 +176,7 @@
             Write a Review
           </a>
           <a href="${issuesUrl}" target="_blank" rel="noopener" class="review-link">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 17h.01"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 2-3 4"/></svg>
             App Support
           </a>
         </div>
