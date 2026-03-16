@@ -37,6 +37,14 @@
       "name": "macOS Apps"
     },
     {
+      "id": "ios",
+      "name": "iOS Apps"
+    },
+    {
+      "id": "android",
+      "name": "Android Apps"
+    },
+    {
       "id": "web",
       "name": "Web Apps"
     },
@@ -200,7 +208,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 335,
+      "stars": 336,
       "forks": 34,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -459,8 +467,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 572,
-      "forks": 94
+      "stars": 604,
+      "forks": 95
     },
     {
       "id": "baby-sleeper",
@@ -576,6 +584,27 @@
       "_developer": "sametcn99",
       "_store": "sametcn99's Apps",
       "_storeUrl": "https://apps.sametcc.me"
+    },
+    {
+      "id": "breathe-wisely",
+      "name": "Breathe Wisely",
+      "subtitle": "Simple Stress Relief",
+      "description": "A simple breathing exercise app designed for quick and effective stress relief.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/1c/dd/fd1cddd8-acb4-1db3-8031-6d3bfafa7aee/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+      "iconEmoji": "🌬️",
+      "category": [
+        "ios"
+      ],
+      "platform": "iOS",
+      "price": "Free",
+      "github": "https://github.com/akeslo",
+      "homepage": "https://apps.apple.com/us/app/breathe-wisely/id6744491087",
+      "_source": "akeslo/wvw.com",
+      "_owner": "akeslo",
+      "_developer": "akeslo",
+      "_store": "Akeslo Apps",
+      "_storeUrl": "",
+      "developer": "akeslo"
     },
     {
       "id": "check-ai",
@@ -794,8 +823,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 572,
-      "forks": 94
+      "stars": 604,
+      "forks": 95
     },
     {
       "id": "damga",
@@ -960,7 +989,7 @@
       "github": "https://github.com/DodoApps/dodoclip",
       "homepage": null,
       "language": "Swift",
-      "stars": 80,
+      "stars": 81,
       "forks": 4,
       "downloadUrl": null,
       "requirements": "macOS 14.0 or later",
@@ -1925,7 +1954,7 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 243,
+      "stars": 244,
       "forks": 5,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -2312,6 +2341,27 @@
       "forks": 3
     },
     {
+      "id": "pinkcloud-timer",
+      "name": "PinkCloud Timer",
+      "subtitle": "Personal sobriety companion",
+      "description": "A personal sobriety companion that tracks your journey and celebrates your milestones.",
+      "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/23/01/e4/2301e472-66ee-e5da-9857-4cd6252e956a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "iconEmoji": "☁️",
+      "category": [
+        "ios"
+      ],
+      "platform": "iOS",
+      "price": "Free",
+      "github": "https://github.com/akeslo",
+      "homepage": "https://apps.apple.com/us/app/pinkcloud-timer/id6744997715",
+      "_source": "akeslo/wvw.com",
+      "_owner": "akeslo",
+      "_developer": "akeslo",
+      "_store": "Akeslo Apps",
+      "_storeUrl": "",
+      "developer": "akeslo"
+    },
+    {
       "id": "pixel-guess-game",
       "name": "Pixel Guess",
       "subtitle": "Guess the character behind the pixels",
@@ -2537,8 +2587,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 152742,
-      "forks": 20090,
+      "stars": 152775,
+      "forks": 20095,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -2581,8 +2631,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 152742,
-      "forks": 20090,
+      "stars": 152775,
+      "forks": 20095,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -2867,6 +2917,7 @@
       "icon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0e/98/c3/0e98c388-eb8a-3d15-dba3-34d3600b76d9/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
       "iconEmoji": "⏱️",
       "category": [
+        "ios",
         "productivity",
         "utilities"
       ],
