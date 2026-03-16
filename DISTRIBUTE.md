@@ -320,6 +320,7 @@ This entire project — Appétit and World Vibe Web — was built with agentic e
 - **Use the schema.** Add `"$schema": "https://wvw.dev/apps.schema.json"` to the top of your `apps.json` for editor validation and autocomplete.
 - **Keep IDs unique.** Your app `id` values must be globally unique across all stores. Use your project name in kebab-case (e.g. `my-cool-tool`).
 - **Host icons on GitHub.** Use raw.githubusercontent.com URLs so they're always available. For Xcode projects, link to the `.appiconset/icon_512x512.png` file.
+- **No icon? No problem.** If your app doesn't have an `icon` URL, WVW will automatically generate a skeuomorphic app icon for you using [fal.ai](https://fal.ai) and Google's Nano Banana model. The generated icon is cached in the WVW repo and served via GitHub CDN. You can always replace it later by adding your own `icon` URL.
 - **Add screenshots.** Apps with screenshots look significantly better in the detail view. Put them in your repo's `docs/` folder.
 - **Don't worry about stars/forks.** WVW fetches them live from the GitHub API during every build. Any values you declare are overwritten.
 - **Test locally.** Clone Appétit, replace the `apps.json`, and serve with `python3 -m http.server` to preview your store before submitting.
