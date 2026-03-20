@@ -471,8 +471,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1326,
-      "forks": 203,
+      "stars": 1367,
+      "forks": 205,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1057,8 +1057,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1326,
-      "forks": 203,
+      "stars": 1367,
+      "forks": 205,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -11344,8 +11344,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 153354,
-      "forks": 20183,
+      "stars": 153377,
+      "forks": 20187,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -11388,8 +11388,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 153354,
-      "forks": 20183,
+      "stars": 153377,
+      "forks": 20187,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -11409,6 +11409,49 @@
       "_store": "Appétit",
       "_storeUrl": "https://apps.fka.dev",
       "developer": "Fatih Kadir Akin"
+    },
+    {
+      "id": "prompts-chat-extension",
+      "name": "prompts.chat Extension",
+      "subtitle": "AI Prompt Library for Your Browser",
+      "description": "The official browser extension for prompts.chat — one-click access to the world's largest prompt collection on ChatGPT, Claude, Gemini, Copilot, and 40+ AI platforms.",
+      "longDescription": "The official browser extension for prompts.chat. Run prompts on ChatGPT, Claude, Gemini, GitHub Copilot, DeepSeek, Grok, Perplexity, and 40+ AI platforms with one click. Features include smart filtering by category, tags, and prompt type (Text, Image, Audio, Video), variable customization with real-time preview, side panel mode, dark/light mode, syntax highlighting for structured prompts, and quick copy to clipboard. Available for Chrome and Firefox.",
+      "icon": "https://raw.githubusercontent.com/fatihsolhan/prompts-chat-extension/main/public/icon/128.png",
+      "iconEmoji": "💬",
+      "iconStyle": {},
+      "category": [
+        "web",
+        "productivity",
+        "developer-tools"
+      ],
+      "platform": "Web",
+      "price": "Free",
+      "github": "https://github.com/fatihsolhan/prompts-chat-extension",
+      "homepage": "https://prompts.chat",
+      "language": "TypeScript",
+      "downloadUrl": "https://github.com/fatihsolhan/prompts-chat-extension/releases/latest",
+      "requirements": "Chrome or Firefox browser",
+      "features": [
+        "One-click prompt execution on 40+ AI platforms",
+        "Smart filtering by category, tags, and prompt type",
+        "Variable customization with real-time preview",
+        "Side panel mode for browsing while using prompts",
+        "Dark and light mode support",
+        "Syntax highlighting for structured prompts (JSON/YAML)",
+        "Quick copy to clipboard",
+        "Available for Chrome and Firefox"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/fatihsolhan/prompts-chat-extension/main/public/prompts-chat-img.png"
+      ],
+      "_source": "fatihsolhan/prompts-chat-extension",
+      "_owner": "fatihsolhan",
+      "_developer": "Fatih Solhan",
+      "_store": "prompts.chat Extension",
+      "_storeUrl": "",
+      "developer": "Fatih Solhan",
+      "stars": 33,
+      "forks": 8
     },
     {
       "id": "radioheavy-avalon",
@@ -12194,7 +12237,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 2053,
+      "stars": 2056,
       "forks": 144,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
@@ -12394,7 +12437,7 @@
       "github": "https://github.com/sametcn99/vitepress-mermaid-renderer",
       "homepage": "https://vitepress-mermaid-renderer.vercel.app",
       "language": "TypeScript",
-      "stars": 48,
+      "stars": 47,
       "forks": 4,
       "developer": "sametcn99",
       "installCommand": "npm install vitepress-mermaid-renderer",
