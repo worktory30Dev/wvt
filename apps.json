@@ -208,7 +208,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 347,
+      "stars": 349,
       "forks": 37,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -471,8 +471,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1708,
-      "forks": 243,
+      "stars": 1726,
+      "forks": 244,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1057,8 +1057,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 1708,
-      "forks": 243,
+      "stars": 1726,
+      "forks": 244,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -9998,7 +9998,7 @@
       "github": "https://github.com/f/git-rewrite-commits",
       "homepage": "https://blog.fka.dev/git-rewrite-commits/",
       "language": "TypeScript",
-      "stars": 1406,
+      "stars": 1407,
       "forks": 57,
       "installCommand": "npx git-rewrite-commits",
       "requirements": "Node.js, Git",
@@ -11417,8 +11417,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 153846,
-      "forks": 20233,
+      "stars": 153906,
+      "forks": 20240,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -11461,8 +11461,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 153846,
-      "forks": 20233,
+      "stars": 153906,
+      "forks": 20240,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
