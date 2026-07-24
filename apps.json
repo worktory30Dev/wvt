@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3851,
+      "stars": 3852,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1393,7 +1393,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3851,
+      "stars": 3852,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -11300,7 +11300,7 @@
       "github": "https://github.com/f/git-rewrite-commits",
       "homepage": "https://blog.fka.dev/git-rewrite-commits/",
       "language": "TypeScript",
-      "stars": 1416,
+      "stars": 1415,
       "forks": 58,
       "installCommand": "npx git-rewrite-commits",
       "requirements": "Node.js, Git",
@@ -13218,7 +13218,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166287,
+      "stars": 166301,
       "forks": 21488,
       "requirements": "Any modern browser",
       "features": [
@@ -13262,7 +13262,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166287,
+      "stars": 166301,
       "forks": 21488,
       "requirements": "Any modern browser",
       "features": [
@@ -14622,7 +14622,7 @@
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
       "stars": 3458,
-      "forks": 243,
+      "forks": 244,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
       "requirements": "macOS 15 Sequoia or later",
