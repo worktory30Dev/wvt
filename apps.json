@@ -12098,7 +12098,7 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 340,
+      "stars": 341,
       "forks": 11,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -13218,8 +13218,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166324,
-      "forks": 21489,
+      "stars": 166340,
+      "forks": 21490,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13262,8 +13262,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166324,
-      "forks": 21489,
+      "stars": 166340,
+      "forks": 21490,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -15027,7 +15027,7 @@
       "_store": "Wallnetic",
       "_storeUrl": "",
       "developer": "Fatih Kan",
-      "stars": 39,
+      "stars": 40,
       "forks": 2
     },
     {
