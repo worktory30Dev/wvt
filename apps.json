@@ -517,7 +517,7 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 315,
+      "stars": 316,
       "forks": 27
     },
     {
@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3852,
+      "stars": 3854,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1393,7 +1393,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3852,
+      "stars": 3854,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -11681,7 +11681,7 @@
       "_storeUrl": "",
       "developer": "scyto",
       "stars": 52,
-      "forks": 1
+      "forks": 2
     },
     {
       "id": "hivedue",
@@ -12098,7 +12098,7 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 341,
+      "stars": 345,
       "forks": 11,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -13218,8 +13218,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166340,
-      "forks": 21490,
+      "stars": 166390,
+      "forks": 21496,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13262,8 +13262,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166340,
-      "forks": 21490,
+      "stars": 166390,
+      "forks": 21496,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -14438,7 +14438,7 @@
       "platform": "Tailwind CSS",
       "price": "Free",
       "github": "https://github.com/Jubstaaa/tailwind-hitslop",
-      "homepage": "https://tailwind-hitslop.vercel.app",
+      "homepage": "https://hitslop.ilkerbalcilar.com",
       "language": "CSS",
       "installCommand": "bun add tailwind-hitslop",
       "requirements": "Tailwind CSS v4 or v3",
@@ -14621,7 +14621,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 3459,
+      "stars": 3465,
       "forks": 245,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
