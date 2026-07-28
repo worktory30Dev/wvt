@@ -275,7 +275,7 @@
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
       "stars": 553,
-      "forks": 77,
+      "forks": 78,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
       "features": [
@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3857,
+      "stars": 3859,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1393,7 +1393,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3857,
+      "stars": 3859,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -12179,7 +12179,7 @@
       "homepage": null,
       "language": "Go",
       "stars": 1614,
-      "forks": 123,
+      "forks": 122,
       "brew": "brew install f/mcptools/mcp",
       "requirements": "macOS, Linux, or Windows",
       "features": [
@@ -13218,8 +13218,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166471,
-      "forks": 21502,
+      "stars": 166480,
+      "forks": 21505,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13262,8 +13262,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166471,
-      "forks": 21502,
+      "stars": 166480,
+      "forks": 21505,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -14621,7 +14621,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 3471,
+      "stars": 3472,
       "forks": 246,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
