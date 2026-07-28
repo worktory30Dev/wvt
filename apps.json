@@ -517,7 +517,7 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 316,
+      "stars": 315,
       "forks": 27
     },
     {
@@ -621,8 +621,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3856,
-      "forks": 625,
+      "stars": 3857,
+      "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
     {
@@ -1393,8 +1393,8 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3856,
-      "forks": 625,
+      "stars": 3857,
+      "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
     {
@@ -11241,7 +11241,7 @@
       "_developer": "Bora Biricik",
       "_store": "Bora Biricik",
       "_storeUrl": "",
-      "stars": 45,
+      "stars": 46,
       "forks": 9,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/geodaddy.jpg"
     },
@@ -12098,7 +12098,7 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 345,
+      "stars": 346,
       "forks": 11,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -13218,7 +13218,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166458,
+      "stars": 166471,
       "forks": 21502,
       "requirements": "Any modern browser",
       "features": [
@@ -13262,7 +13262,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166458,
+      "stars": 166471,
       "forks": 21502,
       "requirements": "Any modern browser",
       "features": [
