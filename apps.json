@@ -517,7 +517,7 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 316,
+      "stars": 317,
       "forks": 27
     },
     {
@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3864,
+      "stars": 3865,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1393,7 +1393,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3864,
+      "stars": 3865,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -13218,8 +13218,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166493,
-      "forks": 21506,
+      "stars": 166480,
+      "forks": 21507,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13262,8 +13262,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166493,
-      "forks": 21506,
+      "stars": 166480,
+      "forks": 21507,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -14622,7 +14622,7 @@
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
       "stars": 3474,
-      "forks": 246,
+      "forks": 247,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
       "requirements": "macOS 15 Sequoia or later",
@@ -15027,7 +15027,7 @@
       "_store": "Wallnetic",
       "_storeUrl": "",
       "developer": "Fatih Kan",
-      "stars": 41,
+      "stars": 42,
       "forks": 2
     },
     {
@@ -15205,7 +15205,7 @@
       "github": "https://github.com/f/wvw.dev-app",
       "homepage": "https://wvw.dev",
       "language": "Rust",
-      "stars": 8,
+      "stars": 7,
       "forks": 0,
       "brew": "brew install f/tap/wvw",
       "downloadUrl": "https://github.com/f/wvw.dev-app/releases/latest",
