@@ -517,7 +517,7 @@
       "_store": "TDD Works",
       "_storeUrl": "",
       "developer": "tddworks",
-      "stars": 315,
+      "stars": 316,
       "forks": 27
     },
     {
@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3859,
+      "stars": 3863,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1393,7 +1393,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3859,
+      "stars": 3863,
       "forks": 624,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -12178,7 +12178,7 @@
       "github": "https://github.com/f/mcptools",
       "homepage": null,
       "language": "Go",
-      "stars": 1614,
+      "stars": 1615,
       "forks": 122,
       "brew": "brew install f/mcptools/mcp",
       "requirements": "macOS, Linux, or Windows",
@@ -13218,8 +13218,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166480,
-      "forks": 21505,
+      "stars": 166484,
+      "forks": 21504,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13262,8 +13262,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166480,
-      "forks": 21505,
+      "stars": 166484,
+      "forks": 21504,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -13324,7 +13324,7 @@
       "_store": "prompts.chat Extension",
       "_storeUrl": "",
       "developer": "Fatih Solhan",
-      "stars": 42,
+      "stars": 43,
       "forks": 8
     },
     {
