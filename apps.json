@@ -274,7 +274,7 @@
       "github": "https://github.com/f/agentlytics",
       "homepage": "https://agentlytics.io",
       "language": "JavaScript",
-      "stars": 553,
+      "stars": 554,
       "forks": 78,
       "installCommand": "npx agentlytics",
       "requirements": "Node.js 20.19+ or 22.12+, macOS",
@@ -714,6 +714,50 @@
       "_developer": "Başar Özcan",
       "_store": "CBOsoft",
       "_storeUrl": "",
+      "stars": 0,
+      "forks": 0
+    },
+    {
+      "id": "better-swipe-keyboard",
+      "name": "Better Swipe Keyboard",
+      "subtitle": "Android keyboard with good swiping and AI proofreading",
+      "description": "A personal Android keyboard in Kotlin with swipe typing, voice input, and AI proofreading that stays on-device when it can.",
+      "longDescription": "Better Swipe Keyboard is an Android keyboard written in Kotlin with Jetpack Compose, built to do three things well: swipe typing with a custom decoder tuned against real captured finger trails, voice input via the phone's built-in speech recognizer with an AI cleanup pass, and AI proofreading that fixes the current sentence after you pause — on-device with Gemini Nano when possible, with a zero-data-retention cloud fallback. Plus emoji panel with suggestions, clipboard history, space-bar cursor scrubbing, long-press punctuation, and custom words. Privacy defaults are strict: proofreading stays on-device when it can, clipboard history lives only in memory, and clips flagged as sensitive are never stored.",
+      "icon": "https://raw.githubusercontent.com/stedwick/BetterSwipeKeyboard/HEAD/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png",
+      "iconStyle": {
+        "scale": 1.25,
+        "objectFit": "cover",
+        "borderRadius": "22%"
+      },
+      "category": [
+        "utilities",
+        "productivity"
+      ],
+      "platform": "Android",
+      "price": "Free",
+      "github": "https://github.com/stedwick/BetterSwipeKeyboard",
+      "homepage": "https://github.com/stedwick/BetterSwipeKeyboard",
+      "language": "Kotlin",
+      "requirements": "Android phone; built with Android SDK 36.",
+      "features": [
+        "Swipe typing with a custom decoder tuned on real finger trails",
+        "Voice input with an AI cleanup pass afterwards",
+        "AI proofreading on-device with Gemini Nano, zero-data-retention cloud fallback",
+        "Emoji suggestions, clipboard history, space-bar cursor scrubbing, custom words",
+        "Privacy-first: clipboard in memory only, sensitive clips never stored"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/stedwick/BetterSwipeKeyboard/HEAD/docs/screenshots/keyboard-dark.jpg",
+        "https://raw.githubusercontent.com/stedwick/BetterSwipeKeyboard/HEAD/docs/screenshots/keyboard-light.jpg",
+        "https://raw.githubusercontent.com/stedwick/BetterSwipeKeyboard/HEAD/docs/screenshots/keyboard-dark-foldable.jpg",
+        "https://raw.githubusercontent.com/stedwick/BetterSwipeKeyboard/HEAD/docs/screenshots/keyboard-light-foldable.jpg"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum",
       "stars": 0,
       "forks": 0
     },
@@ -12098,7 +12142,7 @@
       "github": "https://github.com/alinuxpengui/Macabolic",
       "homepage": null,
       "language": "Swift",
-      "stars": 346,
+      "stars": 347,
       "forks": 11,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
@@ -12178,7 +12222,7 @@
       "github": "https://github.com/f/mcptools",
       "homepage": null,
       "language": "Go",
-      "stars": 1615,
+      "stars": 1616,
       "forks": 122,
       "brew": "brew install f/mcptools/mcp",
       "requirements": "macOS, Linux, or Windows",
@@ -12539,6 +12583,46 @@
       "forks": 0
     },
     {
+      "id": "opentrackir",
+      "name": "OpenTrackIR",
+      "subtitle": "Infrared head mouse for macOS & Windows, no proprietary drivers",
+      "description": "Move your cursor hands-free with NaturalPoint TrackIR hardware — reverse-engineered, cross-platform, no NaturalPoint SDK required.",
+      "longDescription": "OpenTrackIR is an open-source infrared head mouse that moves your cursor hands-free on macOS and Windows using NaturalPoint TrackIR hardware — built for accessibility. The device protocol is fully reverse-engineered, so it reads the camera cross-platform without the proprietary NaturalPoint drivers or SDK. On Windows, a WinUSB driver installed via Zadig replaces the stock driver; the macOS app streams live camera previews with native Quartz mouse output and a global hotkey (Shift+F7) to toggle mouse movement.",
+      "icon": "https://raw.githubusercontent.com/stedwick/OpenTrackIR/HEAD/screenshots/icon-1080-1080.png",
+      "category": [
+        "macos",
+        "utilities",
+        "productivity"
+      ],
+      "platform": "Windows + macOS",
+      "price": "Free",
+      "github": "https://github.com/stedwick/OpenTrackIR",
+      "homepage": "https://github.com/stedwick/OpenTrackIR",
+      "downloadUrl": "https://github.com/stedwick/OpenTrackIR/releases",
+      "language": "C#",
+      "requirements": "NaturalPoint TrackIR hardware; Windows 11 (WinUSB driver via Zadig) or macOS.",
+      "features": [
+        "Hands-free cursor movement with infrared head tracking",
+        "No proprietary NaturalPoint drivers or SDK — fully reverse-engineered protocol",
+        "Live camera preview with centroid and telemetry dashboard",
+        "Global hotkey to toggle mouse movement, works from the tray",
+        "Cross-platform C core shared by the WinUI Windows app and SwiftUI macOS app"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/stedwick/OpenTrackIR/HEAD/screenshots/OpenTrackIR-01-macOS-26-Screenshot.png",
+        "https://raw.githubusercontent.com/stedwick/OpenTrackIR/HEAD/screenshots/OpenTrackIR-021-macOS-26-Gif.gif",
+        "https://raw.githubusercontent.com/stedwick/OpenTrackIR/HEAD/screenshots/OpenTrackIR-023-Win-11-Gif.gif"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum",
+      "stars": 3,
+      "forks": 1
+    },
+    {
       "id": "orbital-drift",
       "name": "Orbital Drift",
       "subtitle": "Sci-fi landscapes with ambient radio",
@@ -12733,6 +12817,43 @@
       "developer": "Philip Brocoum",
       "stars": 5,
       "forks": 3
+    },
+    {
+      "id": "phils-dictation-app",
+      "name": "Phil's Dictation App",
+      "subtitle": "Talk to your computer — dictate into any Windows app",
+      "description": "Respond to emails 10x faster than typing. Write, edit, and paste prose into any Windows app with just your voice. Free trial available.",
+      "longDescription": "Phil's Dictation App is a native Windows dictation app that lets you respond to emails 10 times faster than typing. Write, edit, and copy prose into any app with just your voice. Voice commands fully control the app: say \"wake up\" or \"resume\" to start dictating, \"pause\" or \"go to sleep\" to stop, \"paste (it over)\" to alt-tab to your last app and paste in your text, \"undo that\" or \"select all\" to fix mistakes, and \"go to beginning (or end)\" to move around. Available on the Microsoft Store with a free trial.",
+      "icon": "https://store-images.s-microsoft.com/image/apps.11852.14410176585610181.0c83a31a-48d1-4843-9490-6046fb37bcda.f7bdab64-6075-4f2b-a4ed-c3906f87b0f3",
+      "category": [
+        "productivity",
+        "utilities"
+      ],
+      "platform": "Windows",
+      "price": "$10.49",
+      "github": "https://github.com/stedwick/philsdictationapp-v1",
+      "homepage": "https://apps.microsoft.com/detail/9ntphh45ffrn",
+      "language": "TypeScript",
+      "requirements": "Windows 10/11 (x64) with a microphone.",
+      "features": [
+        "Talk to your computer and respond to emails 10x faster",
+        "Paste your dictation into Microsoft Word or any app with your voice",
+        "Voice commands fully control the app — wake up, pause, paste it over, undo that",
+        "Free trial available on the Microsoft Store"
+      ],
+      "screenshots": [
+        "https://store-images.s-microsoft.com/image/apps.857.14410176585610181.0c83a31a-48d1-4843-9490-6046fb37bcda.929bc9c3-b6ef-4275-b7fd-7149decd9e3d",
+        "https://store-images.s-microsoft.com/image/apps.22947.14410176585610181.0c83a31a-48d1-4843-9490-6046fb37bcda.541c74c9-5b23-4e96-a413-303bf283f190",
+        "https://store-images.s-microsoft.com/image/apps.56398.14410176585610181.0c83a31a-48d1-4843-9490-6046fb37bcda.a2e6d379-4810-419f-86a4-b5202b04b2a3"
+      ],
+      "_source": "stedwick/wvw.dev.apps",
+      "_owner": "stedwick",
+      "_developer": "Philip Brocoum",
+      "_store": "Phil's Apps",
+      "_storeUrl": "https://philipbrocoum.com",
+      "developer": "Philip Brocoum",
+      "stars": 0,
+      "forks": 0
     },
     {
       "id": "pinkcloud-timer",
@@ -13218,8 +13339,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166486,
-      "forks": 21506,
+      "stars": 166493,
+      "forks": 21511,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13262,8 +13383,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166486,
-      "forks": 21506,
+      "stars": 166493,
+      "forks": 21511,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -14528,7 +14649,7 @@
       ],
       "platform": "Web",
       "price": "Free",
-      "github": "https://github.com/stedwick/philsdictationapp",
+      "github": "https://github.com/stedwick/tatertalk-www",
       "homepage": "https://tatertalk.app",
       "language": "TypeScript",
       "requirements": "Chrome on Windows, Mac, Linux, iPhone, and Android.",
