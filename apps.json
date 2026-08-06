@@ -12222,7 +12222,7 @@
       "github": "https://github.com/f/mcptools",
       "homepage": null,
       "language": "Go",
-      "stars": 1618,
+      "stars": 1616,
       "forks": 122,
       "brew": "brew install f/mcptools/mcp",
       "requirements": "macOS, Linux, or Windows",
@@ -13339,7 +13339,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166772,
+      "stars": 166781,
       "forks": 21535,
       "requirements": "Any modern browser",
       "features": [
@@ -13383,7 +13383,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166772,
+      "stars": 166781,
       "forks": 21535,
       "requirements": "Any modern browser",
       "features": [
