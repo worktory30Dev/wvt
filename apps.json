@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3900,
+      "stars": 3901,
       "forks": 630,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1437,7 +1437,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3900,
+      "stars": 3901,
       "forks": 630,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -12465,7 +12465,7 @@
       "github": "https://github.com/sametcn99/my-stars-atlas",
       "homepage": "https://github.com/sametcn99/my-stars-atlas",
       "language": "TypeScript",
-      "stars": 4,
+      "stars": 5,
       "forks": 1,
       "developer": "sametcn99",
       "features": [
@@ -13339,8 +13339,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 166953,
-      "forks": 21550,
+      "stars": 166964,
+      "forks": 21554,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13383,8 +13383,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 166953,
-      "forks": 21550,
+      "stars": 166964,
+      "forks": 21554,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -14742,7 +14742,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 3520,
+      "stars": 3531,
       "forks": 250,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
@@ -15148,8 +15148,8 @@
       "_store": "Wallnetic",
       "_storeUrl": "",
       "developer": "Fatih Kan",
-      "stars": 41,
-      "forks": 2
+      "stars": 42,
+      "forks": 3
     },
     {
       "id": "whisperwrap",
