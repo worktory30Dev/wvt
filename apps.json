@@ -621,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3901,
+      "stars": 3902,
       "forks": 630,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1437,7 +1437,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3901,
+      "stars": 3902,
       "forks": 630,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -13340,7 +13340,7 @@
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
       "stars": 166982,
-      "forks": 21559,
+      "forks": 21558,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13384,7 +13384,7 @@
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
       "stars": 166982,
-      "forks": 21559,
+      "forks": 21558,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -13881,6 +13881,52 @@
       "developer": "Kagan Temizkan",
       "stars": 0,
       "forks": 0
+    },
+    {
+      "id": "rolecraft",
+      "name": "RoleCraft",
+      "subtitle": "The package manager for AI agents",
+      "description": "Install, test, publish, and manage skills & MCP servers across 86+ agents. Zero-dependency CLI.",
+      "longDescription": "RoleCraft is a zero-dependency Node.js CLI that serves as the package manager for AI agent skills. Install skills from any source, test them, publish to a central registry, and manage MCP servers — all from a single tool. Compatible with 86+ AI coding agents including Claude Code, Cursor, Codex, OpenCode, Windsurf, and more.",
+      "icon": "https://raw.githubusercontent.com/rolecraft-sh/rolecraft/main/assets/rolecraft_logo.png",
+      "iconEmoji": "📦",
+      "iconStyle": {
+        "objectFit": "contain",
+        "bgColor": "#ffffff",
+        "padding": "10%"
+      },
+      "category": [
+        "cli",
+        "developer-tools"
+      ],
+      "platform": "Node.js",
+      "price": "Free",
+      "github": "https://github.com/rolecraft-sh/rolecraft",
+      "homepage": "https://rolecraft-sh.github.io/rolecraft/",
+      "language": "JavaScript",
+      "installCommand": "npx rolecraft",
+      "requirements": "Node.js 20+",
+      "features": [
+        "Zero-dependency CLI — no runtime dependencies",
+        "Install skills from GitHub, URLs, or local paths",
+        "Central skill registry with schema validation",
+        "MCP server management — install, verify, and run",
+        "Compatible with 86+ AI agents (Claude Code, Cursor, Codex, OpenCode...)",
+        "GitHub Action for CI/CD integration",
+        "Skill testing and verification built-in",
+        "Profile system for team collaboration"
+      ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/rolecraft-sh/rolecraft/main/assets/rolecraft-demo.gif"
+      ],
+      "_source": "rolecraft-sh/rolecraft",
+      "_owner": "rolecraft-sh",
+      "_developer": "Samet ÇELİKBIÇAK",
+      "_store": "RoleCraft",
+      "_storeUrl": "",
+      "developer": "Samet ÇELİKBIÇAK",
+      "stars": 75,
+      "forks": 21
     },
     {
       "id": "runhq",
@@ -14742,7 +14788,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 3540,
+      "stars": 3541,
       "forks": 249,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
