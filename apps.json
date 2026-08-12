@@ -516,7 +516,9 @@
       "_developer": "tddworks",
       "_store": "TDD Works",
       "_storeUrl": "",
-      "developer": "tddworks"
+      "developer": "tddworks",
+      "stars": 327,
+      "forks": 28
     },
     {
       "id": "aso-screenshot-generator",
@@ -619,7 +621,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3902,
+      "stars": 3903,
       "forks": 630,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/awesome-openclaw-agents.jpg"
     },
@@ -1302,7 +1304,9 @@
       "_developer": "Cosmic Meta Digital",
       "_store": "Cosmic Meta Digital",
       "_storeUrl": "https://apps.ahmet.sh",
-      "developer": "Cosmic Meta Digital"
+      "developer": "Cosmic Meta Digital",
+      "stars": 1,
+      "forks": 0
     },
     {
       "id": "cosmographe",
@@ -1433,7 +1437,7 @@
       "_store": "Mustafa Ergisi",
       "_storeUrl": "",
       "developer": "Mustafa Ergisi",
-      "stars": 3902,
+      "stars": 3903,
       "forks": 630,
       "_generatedIcon": "https://raw.githubusercontent.com/f/wvw.dev/master/assets/icons/crewclaw.jpg"
     },
@@ -1879,8 +1883,8 @@
       "github": "https://github.com/DodoApps/dodopulse",
       "homepage": null,
       "language": "Swift",
-      "stars": 101,
-      "forks": 0,
+      "stars": 134,
+      "forks": 14,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
       "features": [
@@ -2333,7 +2337,9 @@
       "_developer": "Olgun Özoktaş",
       "_store": "FindUtils",
       "_storeUrl": "https://x.com/codewitholgun",
-      "developer": "Olgun Özoktaş"
+      "developer": "Olgun Özoktaş",
+      "stars": 2,
+      "forks": 1
     },
     {
       "id": "findutils-3d-model-viewer",
@@ -13333,8 +13339,8 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 167009,
-      "forks": 21560,
+      "stars": 167025,
+      "forks": 21562,
       "requirements": "Any modern browser",
       "features": [
         "151K+ GitHub stars",
@@ -13377,8 +13383,8 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 167009,
-      "forks": 21560,
+      "stars": 167025,
+      "forks": 21562,
       "requirements": "Any modern browser",
       "features": [
         "25 interactive chapters",
@@ -14782,8 +14788,8 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 3556,
-      "forks": 249,
+      "stars": 3558,
+      "forks": 251,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
       "requirements": "macOS 15 Sequoia or later",
