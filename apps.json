@@ -516,9 +516,7 @@
       "_developer": "tddworks",
       "_store": "TDD Works",
       "_storeUrl": "",
-      "developer": "tddworks",
-      "stars": 326,
-      "forks": 28
+      "developer": "tddworks"
     },
     {
       "id": "aso-screenshot-generator",
@@ -1304,9 +1302,7 @@
       "_developer": "Cosmic Meta Digital",
       "_store": "Cosmic Meta Digital",
       "_storeUrl": "https://apps.ahmet.sh",
-      "developer": "Cosmic Meta Digital",
-      "stars": 1,
-      "forks": 0
+      "developer": "Cosmic Meta Digital"
     },
     {
       "id": "cosmographe",
@@ -1883,8 +1879,8 @@
       "github": "https://github.com/DodoApps/dodopulse",
       "homepage": null,
       "language": "Swift",
-      "stars": 134,
-      "forks": 14,
+      "stars": 101,
+      "forks": 0,
       "downloadUrl": null,
       "requirements": "macOS 12.0 or later",
       "features": [
@@ -2337,9 +2333,7 @@
       "_developer": "Olgun Özoktaş",
       "_store": "FindUtils",
       "_storeUrl": "https://x.com/codewitholgun",
-      "developer": "Olgun Özoktaş",
-      "stars": 2,
-      "forks": 1
+      "developer": "Olgun Özoktaş"
     },
     {
       "id": "findutils-3d-model-viewer",
@@ -13339,7 +13333,7 @@
       "github": "https://github.com/f/prompts.chat",
       "homepage": "https://prompts.chat",
       "language": "TypeScript",
-      "stars": 167003,
+      "stars": 167009,
       "forks": 21560,
       "requirements": "Any modern browser",
       "features": [
@@ -13383,7 +13377,7 @@
       "homepage": "https://prompts.chat/book",
       "buyUrl": "https://donate.stripe.com/aFa8wO4NF2S96jDfn4dMI09",
       "language": "TypeScript",
-      "stars": 167003,
+      "stars": 167009,
       "forks": 21560,
       "requirements": "Any modern browser",
       "features": [
@@ -14788,7 +14782,7 @@
       "github": "https://github.com/f/textream",
       "homepage": "https://textream.fka.dev",
       "language": "Swift",
-      "stars": 3550,
+      "stars": 3556,
       "forks": 249,
       "brew": "brew install f/textream/textream",
       "downloadUrl": "https://github.com/f/textream/releases/latest",
